@@ -1,4 +1,4 @@
-<?php namespace Nilssanderson\Blogarchive\Components;
+<?php namespace NilsSanderson\BlogArchive\Components;
 
 use Rainlab\Blog\Models\Post;
 use Cms\Classes\ComponentBase;

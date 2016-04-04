@@ -1,4 +1,4 @@
-<?php namespace Nilssanderson\Blogarchive;
+<?php namespace NilsSanderson\BlogArchive;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -20,7 +20,7 @@ class Plugin extends PluginBase
             'name'        => 'Blog Archive',
             'description' => 'No description provided yet...',
             'author'      => 'Nils Sanderson',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-newspaper-o'
         ];
     }
 
@@ -32,7 +32,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Nilssanderson\Blogarchive\Components\ArchiveList' => 'archiveList'
+            'NilsSanderson\BlogArchive\Components\ArchiveList' => 'archiveList'
         ];
     }
 }
