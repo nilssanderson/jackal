@@ -1,0 +1,13 @@
+<!-- Blog Archive -->
+<div class="blog-archive">
+    <h2>Archive</h2>
+    {% for key, date in archive %}
+        <div class="archive-section">
+            <h3 class="archive-month">{{ key }}</h3>
+            <ul class="archive-post-list">
+            {% for key, post in date %}
+                <li><a href="{{ 'home' | page }}/blog/post/{{ post.slug }}"><h5 class="archive-post">{{ post.title }}</h5></a></li>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
